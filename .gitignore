@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+ivan_env/
+venv/
+ENV/
+.env/
+.venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+.env.*
+
+# Credentials and secrets
+creds/
+creds/*.json
+creds/*.key
+creds/*.pem
+
+# Logs
+*.log
+
+# pip / wheel
+pip-wheel-metadata/
+
+# Pipenv
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+
+# Local settings
+local_settings.py
+
+# Misc
+*.swp
+*~
+
+# End of file
