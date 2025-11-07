@@ -8,7 +8,7 @@ class GitHubService:
         # Load environment variables automatically
         load_dotenv()
 
-        GITHUB_TOKEN = os.getenv("GITHUB_ORG_TOKEN")
+        GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
         ORG_NAME = os.getenv("GITHUB_ORG")
 
         if not GITHUB_TOKEN or not ORG_NAME:
